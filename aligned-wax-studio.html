@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aligned Wax Studio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="site">
+
+  <!-- ======= HERO ======= -->
+  <header class="hero">
+    <p class="hero-location">Buffalo, NY</p>
+    <h1>Aligned<br>Wax Studio</h1>
+    <p class="hero-tagline">Professional waxing &amp; beauty services in a comfortable, clean, and judgment-free space.</p>
+    <span class="hero-badge">Now accepting new clients</span>
+  </header>
+
+  <!-- ======= NAV ======= -->
+  <nav>
+    <button class="active" onclick="show('services', this)">Services</button>
+    <button onclick="show('additional', this)">Add-ons</button>
+    <button onclick="show('policies', this)">Policies</button>
+    <button onclick="show('rewards', this)">Rewards</button>
+    <button onclick="show('book', this)">Book</button>
+  </nav>
+
+  <!-- ======= SERVICES ======= -->
+  <section id="services" class="section visible">
+    <p class="section-label">Waxing services</p>
+
+    <div class="service-group">
+      <div class="service-group-name">Brazilian</div>
+
+      <div class="service-row">
+        <div>
+          <div class="service-name">New client / 7+ weeks <span class="new-badge">New client</span></div>
+        </div>
+        <div class="service-price">$65</div>
+      </div>
+
+      <div class="service-row">
+        <div class="service-name">Brazilian — 4 to 6 weeks</div>
+        <div class="service-price">$60</div>
+      </div>
+    </div>
+
+    <div class="service-group">
+      <div class="service-group-name">Bikini</div>
+
+      <div class="service-row">
+        <div>
+          <div class="service-name">New client full bikini / 7+ weeks <span class="new-badge">New client</span></div>
+        </div>
+        <div class="service-price">$60</div>
+      </div>
+
+      <div class="service-row">
+        <div class="service-name">Full bikini — 4 to 6 weeks</div>
+        <div class="service-price">$55</div>
+      </div>
+
+      <div class="service-row">
+        <div class="service-name">Bikini line</div>
+        <div class="service-price">$45</div>
+      </div>
+    </div>
+
+    <div class="service-group">
+      <div class="service-group-name">Body</div>
+
+      <div class="service-row">
+        <div class="service-name">Butt strip</div>
+        <div class="service-price">$15</div>
+      </div>
+
+      <div class="service-row">
+        <div class="service-name">Full butt</div>
+        <div class="service-price">$25</div>
+      </div>
+
+      <div class="service-row">
+        <div class="service-name">Underarm</div>
+        <div class="service-price">$25</div>
+      </div>
+
+      <div class="service-row">
+        <div class="service-name">Full stomach</div>
+        <div class="service-price">$45</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= ADD-ONS ======= -->
+  <section id="additional" class="section">
+    <p class="section-label">Additional services</p>
+
+    <div class="service-group">
+      <div class="service-group-name">Lashes</div>
+
+      <div class="service-row">
+        <div class="service-name">Yumi Korean lash lift</div>
+        <div class="service-price">$150</div>
+      </div>
+    </div>
+
+    <div class="service-group">
+      <div class="service-group-name">Brows</div>
+
+      <div class="service-row">
+        <div>
+          <div class="service-name">New client brow lift <span class="new-badge">New client</span></div>
+          <div class="service-note">+ $15 color</div>
+        </div>
+        <div class="service-price">$120</div>
+      </div>
+
+      <div class="service-row">
+        <div>
+          <div class="service-name">Brow lamination</div>
+          <div class="service-note">+ $15 color</div>
+        </div>
+        <div class="service-price">$110</div>
+      </div>
+
+      <div class="service-row">
+        <div class="service-name">Brow lamination revive</div>
+        <div class="service-price">$40</div>
+      </div>
+    </div>
+
+    <div class="service-group">
+      <div class="service-group-name">Skin</div>
+
+      <div class="service-row">
+        <div class="service-name">Mini vajacial + brazilian</div>
+        <div class="service-price">$80</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= POLICIES ======= -->
+  <section id="policies" class="section">
+    <p class="section-label">Studio policies</p>
+
+    <div class="policy-card">
+      <div class="policy-card-title">Late arrivals</div>
+      <div class="policy-body">
+        If you arrive 7 minutes or more after your appointment start time, you will be considered late — regardless of the length of your appointment.
+      </div>
+    </div>
+
+    <div class="policy-card">
+      <div class="policy-card-title">Cancellation &amp; no-shows</div>
+      <div class="policy-body">
+        A 24-hour notice is required for cancelling or rescheduling your appointment. We appreciate your respect for our time.
+      </div>
+    </div>
+
+    <div class="policy-card">
+      <div class="policy-card-title">Additional info</div>
+      <div class="policy-body">
+        You can still get waxed while on your menstrual cycle. Please have a tampon or menstrual cup in place before your appointment.
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= REWARDS ======= -->
+  <section id="rewards" class="section">
+    <p class="section-label">Rewards &amp; loyalty</p>
+
+    <div class="reward-grid">
+      <div class="reward-card">
+        <div class="reward-amount">$5</div>
+        <div class="reward-label">Refer a friend</div>
+        <div class="reward-desc">Earn $5 credit for every friend you refer, after their first completed appointment.</div>
+      </div>
+      <div class="reward-card">
+        <div class="reward-amount">$5</div>
+        <div class="reward-label">Leave a review</div>
+        <div class="reward-desc">Drop us a review on Google or Yelp and receive $5 added to your account.</div>
+      </div>
+    </div>
+
+    <div class="loyalty-card">
+      <div class="loyalty-title">The Wax Pass</div>
+      <div class="loyalty-sub">Complete 5 brazilian or bikini services — earn a free reward</div>
+      <div class="stamp-row">
+        <div class="stamp filled">
+          <svg viewBox="0 0 16 16" fill="none" stroke="#fff" stroke-width="2.5">
+            <path d="M3 8l3.5 3.5L13 5"/>
+          </svg>
+        </div>
+        <div class="stamp filled">
+          <svg viewBox="0 0 16 16" fill="none" stroke="#fff" stroke-width="2.5">
+            <path d="M3 8l3.5 3.5L13 5"/>
+          </svg>
+        </div>
+        <div class="stamp filled">
+          <svg viewBox="0 0 16 16" fill="none" stroke="#fff" stroke-width="2.5">
+            <path d="M3 8l3.5 3.5L13 5"/>
+          </svg>
+        </div>
+        <div class="stamp"></div>
+        <div class="stamp"></div>
+        <div class="stamp free">
+          <svg viewBox="0 0 16 16" fill="none" stroke="#C9827A" stroke-width="2">
+            <path d="M8 4v8M4 8h8"/>
+          </svg>
+        </div>
+      </div>
+      <div class="loyalty-note">Every 5 stamps = free bikini line wax or $15 off any service. Stamps never expire.</div>
+    </div>
+  </section>
+
+  <!-- ======= BOOK ======= -->
+  <section id="book" class="section">
+    <div class="book-wrapper">
+      <p class="section-label" style="text-align: center;">Ready to book?</p>
+      <p>We'd love to see you. Book your appointment online or reach out directly — we make it easy.</p>
+      <!-- Replace # with your actual booking link (Vagaro, Square, Fresha, etc.) -->
+      <a class="book-btn" href="#">Book an appointment</a>
+      <div class="social-row">
+        <!-- Replace # with your real social/contact links -->
+        <a class="social-link" href="#">Instagram</a>
+        <a class="social-link" href="#">Facebook</a>
+        <a class="social-link" href="#">Email us</a>
+      </div>
+    </div>
+  </section>
+
+</div><!-- end .site -->
+
+<footer>
+  &copy; 2025 Aligned Wax Studio &middot; All rights reserved
+</footer>
+
+<script>
+  function show(id, btn) {
+    document.querySelectorAll('.section').forEach(function(s) {
+      s.classList.remove('visible');
+    });
+    document.querySelectorAll('nav button').forEach(function(b) {
+      b.classList.remove('active');
+    });
+    document.getElementById(id).classList.add('visible');
+    btn.classList.add('active');
+  }
+</script>
+
+</body>
+</html>
